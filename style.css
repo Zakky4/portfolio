@@ -9,7 +9,8 @@
 
 /* 例：functions.phpで読み込んだGoogleフォントをメインビジュアルのタイトルのフォントに適用。不要なら削除してください。*/
 .mv-title {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Candal", serif;
 }
 
 /* 例：投稿一覧をPCで３カラム、SPで1カラムに変更。*/
