@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+ Theme Name: PORTFOLIOベーシック（子テーマ）
+ Template: portfolio-basic
+ Version: 1.0.1
+*/
+
+/* 以下にCSSを記入します。一例としてfunctions.phpで読み込んだGoogleフォントをメインビジュアルのタイトルのフォントに適用しています。不要なら削除してください。*/
+
+/* 例：functions.phpで読み込んだGoogleフォントをメインビジュアルのタイトルのフォントに適用。不要なら削除してください。*/
+.mv-title {
+  font-family: "Playfair Display", serif;
+}
+
+/* 例：投稿一覧をPCで３カラム、SPで1カラムに変更。*/
+.articleList-list {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 767px) {
+  .articleList-list {
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+  }
+}
